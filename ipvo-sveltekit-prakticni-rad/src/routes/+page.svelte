@@ -47,14 +47,14 @@
         border-radius: 15px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
-    .input-group {
+    .input_group {
         margin-bottom: 15px;
     }
-    .input-group label {
+    .input_group label {
         display: block;
         margin-bottom: 5px;
     }
-    .input-group input {
+    .input_group input {
         width: 100%;
         padding: 8px;
         border: 1px solid #ccc;
