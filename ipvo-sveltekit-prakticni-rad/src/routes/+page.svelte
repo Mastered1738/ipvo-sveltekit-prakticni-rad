@@ -8,7 +8,8 @@
       console.log('Password:', password);
     }
   </script>
-
+<body>
+</body>
 <div class="container">
     <div class="box">
         <h2 class="title">Torač</h2>
