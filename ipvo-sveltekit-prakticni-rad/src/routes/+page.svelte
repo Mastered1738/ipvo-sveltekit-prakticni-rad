@@ -1,11 +1,32 @@
 <script>
+	import { goto } from "$app/navigation";
+	import { loggedUserStore } from "../stores/logged_user.store";
+
     let username = '';
     let password = '';
-  
-    function handleLogin() {
+
+    async function handleLogin() {
       // Perform login logic here
-      console.log('Username:', username);
-      console.log('Password:', password);
+      const response = await fetch('http://localhost:3000/user/log-in', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            username: username,
+            password: password
+        }),
+      })
+      .then((data) => { return data.json() })
+      .then((data) => {
+        if (data !== null) {
+            console.log('====================================');
+            console.log(data);
+            console.log('====================================');
+            $loggedUserStore.user_id = data.user_id;
+            $loggedUserStore.username = data.username;
+            $loggedUserStore.user_type = data.user_type.user_type_id;
+            goto('./Pregled_Narudzbi');
+        }
+      });
     }
   </script>
 <body>
