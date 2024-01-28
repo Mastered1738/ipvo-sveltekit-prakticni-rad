@@ -32,9 +32,7 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
-        background-image: url('https://www.maslinar.com/wp-content/uploads/2023/02/azienda-5-1.jpg'); /* Background image */
-        background-size: cover;
-        background-position: center;
+        background-color: #b2ff7ea9;
     }
     .container{
         display: flex;
