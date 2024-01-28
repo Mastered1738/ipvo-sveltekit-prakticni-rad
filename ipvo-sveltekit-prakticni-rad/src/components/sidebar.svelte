@@ -14,11 +14,11 @@
 <div class="sidebar {isOpen ? 'open' : ''}">
     <div>
       <ul>
-        <li>Pregled naruđbi</li>
+        <li>Pregled narudzbi</li>
 				<hr>
-        <li>Kreiraj naruđbu</li>
+        <li>Kreiraj narudzbu</li>
 				<hr>
-        <li>Ažuriraj naruđbu</li>
+        <li>Ažuriraj narudzbu</li>
 				<hr>
 				<li>Kreiraj kupca</li>
 				<hr>
