@@ -26,7 +26,7 @@
 </body>
 <style>
     body {
-        margin: 0;
+        margin: -20px;
         padding: 0;
         display: flex;
         justify-content: center;

@@ -39,7 +39,7 @@
       width:  250px;
       height: 100vh;
 			border: none;
-        border-radius: 20px;
+      border-radius: 20px;
       background-color: #73c04f60;
       color: #fff;
       position: fixed;
