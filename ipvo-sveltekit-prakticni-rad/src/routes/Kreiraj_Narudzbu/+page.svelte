@@ -9,7 +9,7 @@
 <body>
     <Sidebar/>
     <UpdateForm>
-        <h2 class="title">Nova naruđba</h2>
+        <h2 class="title">Nova narudzba</h2>
         <div>
             <div class="input_group">
                 <label for="">ID Korisnika:</label>
