@@ -131,4 +131,17 @@
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
         transform: translateY(1px);
     }
+    .input_group {
+        margin-bottom: 15px;
+    }
+    .input_group label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .input_group input {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
 </style>
