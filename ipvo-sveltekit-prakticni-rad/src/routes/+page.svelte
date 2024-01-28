@@ -9,7 +9,6 @@
     }
   </script>
 <body>
-</body>
 <div class="container">
     <div class="box">
         <h2 class="title">Torač</h2>
@@ -24,7 +23,7 @@
         <button class="login" on:click={handleLogin}>Login</button>
     </div>
 </div>
-
+</body>
 <style>
     body {
         margin: 0;
