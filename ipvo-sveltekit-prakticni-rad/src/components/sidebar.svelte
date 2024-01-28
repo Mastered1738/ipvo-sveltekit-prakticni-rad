@@ -38,13 +38,13 @@
 			margin-top: 45px;
       width:  250px;
       height: 100vh;
-			border: none;
+			border: 1px solid;
       border-radius: 20px;
       background-color: #73c04f60;
       color: #fff;
       position: fixed;
       top: 0;
-      left: -250px; /* Initially hidden */
+      left: -252px; /* Initially hidden */
       transition: left 0.3s ease;
       z-index: 1000;
     }

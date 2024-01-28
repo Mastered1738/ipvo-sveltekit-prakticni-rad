@@ -35,6 +35,7 @@
         background-color: #b2ff7ea9;
     }
     .container{
+        position: fixed;
         display: flex;
         justify-content: center;
         align-items: center;
