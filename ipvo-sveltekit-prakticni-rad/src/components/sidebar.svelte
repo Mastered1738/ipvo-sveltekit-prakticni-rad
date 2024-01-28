@@ -7,6 +7,7 @@
 </script>
 
 <div class="content {isOpen ? 'open' : ''}">
+    <!-- svelte-ignore a11y-no-static-element-interactions -->
     <div class="toggle-button" on:click={toggleSidebar}>
       {isOpen ? 'Close' : 'Open'}
     </div>
